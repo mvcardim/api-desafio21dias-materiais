@@ -23,11 +23,10 @@
 
 # Componentes instalados:
 ``` bash
-  dotnet add package Microsoft.EntityFrameworkCore --version 5.0.9
-  dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 5.0.9
-  dotnet add package Microsoft.EntityFrameworkCore.Tools --version 5.0.9
-  dotnet add package Swashbuckle.AspNetCore --version 5.6.3
-  dotnet add package EntityFrameworkPaginateCore --version 2.1.0
+  PackageReference Include="EntityFrameworkPaginateCore" Version="2.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.0" />
 ```
 
 # Comandos para migração para criar:
